@@ -1,0 +1,38 @@
+[
+    {
+       "caption": "3*3",
+       "imageSrc": "src/Grid/1.jpg"
+    },
+    {
+       "caption": "Pyraminx",
+       "imageSrc": "src/Grid/2.jpg"
+    },
+    {
+       "caption": "2*2",
+       "imageSrc": "src/Grid/3.jpg"
+    },
+    {
+       "caption": "5*5",
+       "imageSrc": "src/Grid/4.jpg"
+    },
+    {
+        "caption": "3*3 black",
+        "imageSrc": "src/Grid/5.jpg"
+     },
+     {
+        "caption": "Puzzle Cube",
+        "imageSrc": "src/Grid/6.jpg"
+     },
+     {
+        "caption": "Megaminx",
+        "imageSrc": "src/Grid/7.jpg"
+     },
+     {
+        "caption": "Starter Pack",
+        "imageSrc": "src/Grid/8.jpg"
+     },
+     {
+        "caption": "5*5",
+        "imageSrc": "src/Grid/9.jpg"
+     }
+]

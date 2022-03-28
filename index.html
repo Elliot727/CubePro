@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+  
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <script defer src="js/Grid.js" ></script>
+    <script defer src="js/Carousel.js" ></script>
+    <title>CubePro</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <h1 class="heading">CubePro</h1>
+        <ul>
+            <li><a href="index.html"class="colour-orange">Home</a></li>
+            <li><a href="Three.html"class="colour-red">3*3</a></li>
+            <li><a href="Two.html"class="colour-purple">2*2</a></li>
+            <li><a href="Timer.html"class="colour-dark-purple">Timer</a></li>
+        </ul>
+    </nav>
+
+
+    <h1 class="title2">Begin Your Cubing Success</h1>
+
+    <div class="slideshow-container">        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img  style="width:100%; height:100%;">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img  style="width:100%; height:100%;">          
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img style="width:100%; height:100%;">          
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img style="width:100%; height: 100%;">            
+        </div>
+              
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        
+    </div>
+  
+    <div id="image_url_1"></div>
+
+    
+    <h1 class="getstarted"><a href="Three.html">Get Started Now!!</a></h1>
+    <p class="paragraph">Solving a rubiks cube has never been better</p>
+    <p class="paragraph"></p>
+    <div class="gallery" id="gridImages"></div>
+    <div id="popup">
+        <img src="" alt="" id="selectedImage">
+    </div>
+
+
+    <p class="carousel-caption" id="gridCaption"></p>
+    <p class="paragraph">You can use our timer to test your skills or use a more comprehensive timer such as <a href="https://cstimer.net" class="links">cstimer</a></p>
+    <p class="bottom"></p>
+</body>
+</html>

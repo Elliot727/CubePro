@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <script src="js/app.js" defer></script> 
+    <title>CubePro</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <h1 class="heading">CubePro</h1>
+        <ul>
+            <li><a href="index.html"class="colour-orange">Home</a></li>
+            <li><a href="Three.html"class="colour-red">3*3</a></li>
+            <li><a href="Two.html"class="colour-purple">2*2</a></li>
+            <li><a href="Timer.html"class="colour-dark-purple">Timer</a></li>
+        </ul>
+    </nav>
+    <h1 class="title">Timer</h1>
+    <p class="paragraph"></p>
+    <div id="scramble"></div>
+    <button class="scramble" onclick="genScramble()">
+		New Scramble
+	</button>
+    
+    <div class="timerDisplay">
+        00 : 00 : 00 : 000
+     </div>
+
+     <div class="buttons">
+        <button id="pauseTimer">Pause</button>
+        <button id="startTimer">Start</button>
+        <button id="resetTimer">Reset</button>
+      </div>
+      <p class="bottom"></p>
+</body>
+</html>
