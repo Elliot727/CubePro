@@ -62,7 +62,7 @@ body {
 
 .nav-menu a:hover {
   color: black;
-  border-bottom: 4px solid white;
+  border-bottom-style: hidden;
 }
 
 @media (max-width: 35em) {
